@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /rest/v1/folder
+RewriteRule ^list\.php$ - [L]
+RewriteRule .* list.php [L]

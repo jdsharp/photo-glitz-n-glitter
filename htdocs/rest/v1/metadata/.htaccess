@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /rest/v1/metadata
+RewriteRule ^metadata\.php$ - [L]
+RewriteRule .* metadata.php [L]
